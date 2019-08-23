@@ -1,5 +1,5 @@
 function doScience(): string {
-    return 'Science.';
+    return 'Science is awesome... 👩‍🔬 + 🧨 = 🚀';
 }
 
 export { doScience };

@@ -19,8 +19,8 @@
         "url": "git+https://github.com/muffin-crusaders/monorepo-ramp-test.git"
     },
     "scripts": {
-        "test": "echo \"Error: run tests from root\" && exit 1",
-        "build": "node_modules/.bin/tsc"
+        "build": "parcel build src/index.html",
+        "serve": "parcel src/index.html"
     },
     "bugs": {
         "url": "https://github.com/muffin-crusaders/monorepo-ramp-test/issues"

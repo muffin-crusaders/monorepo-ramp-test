@@ -1,4 +1,4 @@
 function doScience() {
-    return 'Science.';
+    return 'Science is awesome... 👩‍🔬 + 🧨 = 🚀';
 }
 export { doScience };

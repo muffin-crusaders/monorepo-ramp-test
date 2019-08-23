@@ -4,9 +4,7 @@
     "description": "",
     "main": "dist/index.js",
     "private": true,
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "scripts": {},
     "repository": {
         "type": "git",
         "url": "git+https://github.com/muffin-crusaders/monorepo-ramp-test.git"
@@ -19,7 +17,9 @@
     "homepage": "https://github.com/muffin-crusaders/monorepo-ramp-test#readme",
     "dependencies": {
         "lerna": "^3.16.4",
+        "only": "0.0.2",
         "parcel-bundler": "^1.12.3",
+        "parcel-plugin-clean-dist": "0.0.6",
         "ramp-one": "file:packages\\ramp-one",
         "ramp-two": "file:packages\\ramp-two",
         "typescript": "^3.5.3"

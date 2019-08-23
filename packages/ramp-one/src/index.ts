@@ -1,3 +1,8 @@
-import two from '../node_modules/ramp-two';
+import * as two from 'ramp-two';
 
-console.log(two.doScience());
+const line = two.doScience();
+
+const fragment = document.createElement('span');
+fragment.innerHTML = line;
+
+document.body.appendChild(fragment);
