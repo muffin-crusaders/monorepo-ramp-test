@@ -19,7 +19,7 @@
         "url": "git+https://github.com/muffin-crusaders/monorepo-ramp-test.git"
     },
     "scripts": {
-        "build": "node_modules/.bin/tsc --module esnext --target es2016 --lib es2017 --outDir dist src/index.ts",
+        "build": "node_modules/.bin/tsc -d --module esnext --target es2016 --lib es2017 --outDir dist src/index.ts",
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "bugs": {
