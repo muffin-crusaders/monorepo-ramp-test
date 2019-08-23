@@ -1,0 +1,27 @@
+{
+    "name": "ramp-one",
+    "version": "1.0.0",
+    "private": true,
+    "description": "> TODO: description",
+    "author": "Aleksuei Riabtsev <aleksuei.riabtsev@ec.gc.ca>",
+    "homepage": "https://github.com/muffin-crusaders/monorepo-ramp-test/tree/master/packages/ramp-one#readme",
+    "license": "ISC",
+    "main": "dist/ramp-one.js",
+    "directories": {
+        "dist": "dist",
+        "test": "__tests__"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/muffin-crusaders/monorepo-ramp-test.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/muffin-crusaders/monorepo-ramp-test/issues"
+    }
+}
