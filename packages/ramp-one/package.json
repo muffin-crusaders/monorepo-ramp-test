@@ -6,7 +6,7 @@
     "author": "Aleksuei Riabtsev <aleksuei.riabtsev@ec.gc.ca>",
     "homepage": "https://github.com/muffin-crusaders/monorepo-ramp-test/tree/master/packages/ramp-one#readme",
     "license": "ISC",
-    "main": "dist/ramp-one.js",
+    "main": "dist/index.js",
     "directories": {
         "dist": "dist",
         "test": "__tests__"

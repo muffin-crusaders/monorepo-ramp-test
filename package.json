@@ -16,12 +16,14 @@
     },
     "homepage": "https://github.com/muffin-crusaders/monorepo-ramp-test#readme",
     "dependencies": {
+        "ramp-one": "file:packages/ramp-one",
+        "ramp-two": "file:packages/ramp-two"
+    },
+    "devDependencies": {
         "lerna": "^3.16.4",
         "only": "0.0.2",
         "parcel-bundler": "^1.12.3",
         "parcel-plugin-clean-dist": "0.0.6",
-        "ramp-one": "file:packages\\ramp-one",
-        "ramp-two": "file:packages\\ramp-two",
         "typescript": "^3.5.3"
     }
 }

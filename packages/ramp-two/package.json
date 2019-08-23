@@ -24,5 +24,8 @@
     },
     "bugs": {
         "url": "https://github.com/muffin-crusaders/monorepo-ramp-test/issues"
+    },
+    "dependencies": {
+        "luxon": "^1.17.2"
     }
 }
