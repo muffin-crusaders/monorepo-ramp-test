@@ -26,6 +26,6 @@
         "url": "https://github.com/muffin-crusaders/monorepo-ramp-test/issues"
     },
     "dependencies": {
-        "ramp-two": "github:muffin-crusaders/monorepo-ramp-test/packages/ramp-two#v1.0.0"
+        "ramp-two": "file:../ramp-two"
     }
 }

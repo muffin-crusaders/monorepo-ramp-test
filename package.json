@@ -19,6 +19,9 @@
     "homepage": "https://github.com/muffin-crusaders/monorepo-ramp-test#readme",
     "dependencies": {
         "lerna": "^3.16.4",
+        "parcel-bundler": "^1.12.3",
+        "ramp-one": "file:packages\\ramp-one",
+        "ramp-two": "file:packages\\ramp-two",
         "typescript": "^3.5.3"
     }
 }
