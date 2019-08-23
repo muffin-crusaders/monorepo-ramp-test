@@ -14,8 +14,9 @@
         {
             "commandKind": "bulk",
             "name": "serve",
-            "summary": "Serve the page locally",
-            "enableParallelism": true
+            "summary": "Serves the page locally.",
+            "enableParallelism": true,
+            "ignoreDependencyOrder": true
         }
 
         // {
