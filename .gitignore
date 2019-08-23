@@ -64,3 +64,6 @@ package-deps.json
 
 # Distribution folder
 dist
+
+# Parcel cache
+.cache

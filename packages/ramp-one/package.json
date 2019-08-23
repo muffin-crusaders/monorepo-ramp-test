@@ -11,9 +11,7 @@
         "dist": "dist",
         "test": "__tests__"
     },
-    "files": [
-        "dist"
-    ],
+    "files": ["dist"],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/muffin-crusaders/monorepo-ramp-test.git"
@@ -26,6 +24,13 @@
         "url": "https://github.com/muffin-crusaders/monorepo-ramp-test/issues"
     },
     "dependencies": {
-        "ramp-two": "file:../ramp-two"
+        "ramp-two": "~1.0.0"
+    },
+    "devDependencies": {
+        "cssnano": "^4.1.10",
+        "only": "0.0.2",
+        "parcel-bundler": "^1.12.3",
+        "parcel-plugin-clean-dist": "0.0.6",
+        "typescript": "^3.5.3"
     }
 }

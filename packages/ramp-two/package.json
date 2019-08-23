@@ -11,9 +11,7 @@
         "dist": "dist",
         "test": "__tests__"
     },
-    "files": [
-        "dist"
-    ],
+    "files": ["dist"],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/muffin-crusaders/monorepo-ramp-test.git"
@@ -26,6 +24,7 @@
         "url": "https://github.com/muffin-crusaders/monorepo-ramp-test/issues"
     },
     "dependencies": {
-        "luxon": "^1.17.2"
+        "luxon": "^1.17.2",
+        "typescript": "^3.5.3"
     }
 }
