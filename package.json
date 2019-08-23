@@ -1,0 +1,24 @@
+{
+    "name": "monorepo-ramp-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/muffin-crusaders/monorepo-ramp-test.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/muffin-crusaders/monorepo-ramp-test/issues"
+    },
+    "homepage": "https://github.com/muffin-crusaders/monorepo-ramp-test#readme",
+    "dependencies": {
+        "lerna": "^3.16.4",
+        "typescript": "^3.5.3"
+    }
+}
