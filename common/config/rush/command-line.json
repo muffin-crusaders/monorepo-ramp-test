@@ -14,7 +14,7 @@
         {
             "commandKind": "bulk",
             "name": "serve",
-            "summary": "Serves the page locally.",
+            "summary": "Serves the page locally with hot-reload.",
             "enableParallelism": true,
             "ignoreDependencyOrder": true
         }

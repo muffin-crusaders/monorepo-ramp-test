@@ -1,4 +1,5 @@
 function doScience() {
-    return 'Science is awesome... 👩‍🔬 + 🧨 = 🚀';
+    return { line: 'Science is awesome... ', emoji: ['👩‍🔬', '🧨', '🚀'] };
 }
 export { doScience };
+export * from './random-emoji';
